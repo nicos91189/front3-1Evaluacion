@@ -1,6 +1,10 @@
-const Card = () => {
+const Card = ({auto}) => {
+  const { marca, modelo } = auto;
+
   return (
-    <div>Card</div>
+    <div>
+      <h4>Tu auto favorito es el {marca},  {modelo}</h4>
+    </div>
   )
 }
 
